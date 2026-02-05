@@ -1,16 +1,57 @@
-# React + Vite
+# 🎮 Tic Tac Toe – React Game with AI & Dark Mode
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **Tic Tac Toe game** built using **React** with both **Single Player (AI)** and **Multiplayer** modes.  
+The project focuses on clean UI, smooth animations, intelligent game logic, and a professional user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- 🎯 **Single Player Mode** – Play against a smart AI
+- 👥 **Multiplayer Mode** – Two players on the same device
+- 🤖 **AI Logic**
+  - Tries to win
+  - Blocks opponent moves
+  - Chooses center & random moves intelligently
+- 🌙 **Dark Mode Support**
+- 🏆 **Winning Line Highlight**
+- 🔁 **Instant Game Reset**
+- 🎨 **Modern UI with Animations**
+- 📱 **Fully Responsive Design**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Hooks & Functional Components)
+- **Tailwind CSS** – Styling & Dark Mode
+- **Lucide React Icons**
+- **JavaScript (ES6+)**
+
+---
+
+## 🧠 Game Logic Overview
+
+- Win detection using predefined winning combinations
+- AI move selection:
+  1. Try to win
+  2. Block opponent
+  3. Take center
+  4. Choose random available move
+- Automatic draw detection
+- Disabled moves after game completion
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots or GIFs here for better presentation  
+> (Light mode, Dark mode, AI gameplay)
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/tic-tac-toe-react.git
